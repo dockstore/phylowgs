@@ -1,10 +1,9 @@
 dist: trusty
-sudo: required
 language: cpp
 addons:
   apt:
     packages:
-    - libgsl-dev
+    - libgsl0-dev
     - python-numpy 
     - python-scipy
 before_install:
