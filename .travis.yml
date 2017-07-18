@@ -4,9 +4,8 @@ addons:
   apt:
     packages:
     - libgsl0-dev
-    - python-numpy 
-    - python-scipy
 before_install:
+  - pip2.7 install --user numpy scipy
   - pip2.7 install --user ete2
 install:
   - g++ -o mh.o -O3 mh.cpp  util.cpp `gsl-config --cflags --libs`
