@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dockstore/phylowgs.svg?branch=master)](https://travis-ci.org/dockstore/phylowgs)
+
 PhyloWGS
 ========
 
