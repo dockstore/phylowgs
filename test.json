@@ -1,0 +1,30 @@
+{
+  "random_seed_output": {
+    "path": "random_seed.txt",
+    "class": "File"
+  },
+  "ssm_file": {
+    "path": "https://github.com/morrislab/phylowgs/raw/smchet5/ssm_data.txt",
+    "class": "File"
+  },
+  "clonal_frequencies": {
+    "path": "clonalFrequencies",
+    "class": "File"
+  },
+  "mcmc_samples_output": {
+    "path": "mcmc_samples.txt",
+    "class": "File"
+  },
+  "cnv_file": {
+    "path": "https://github.com/morrislab/phylowgs/raw/smchet5/cnv_data.txt",
+    "class": "File"
+  },
+  "trees": {
+    "path": "trees.zip",
+    "class": "File"
+  },
+  "top_k_trees": {
+    "path": "top_k_trees",
+    "class": "File"
+  }
+}
